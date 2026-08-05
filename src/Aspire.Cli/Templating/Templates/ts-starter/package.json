@@ -9,9 +9,9 @@
     "aspire:dev": "tsc --watch -p tsconfig.apphost.json",
     "lint": "npm run aspire:lint",
     "predev": "npm run aspire:lint",
-    "dev": "npm run aspire:start",
+    "dev": "node init && npm run aspire:start",
     "prebuild": "npm run aspire:lint",
-    "build": "npm run aspire:build",
+    "build": "node init && npm run aspire:build",
     "watch": "npm run aspire:dev"
   },
   "dependencies": {
