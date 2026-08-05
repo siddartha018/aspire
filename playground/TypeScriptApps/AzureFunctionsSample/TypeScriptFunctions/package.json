@@ -4,10 +4,10 @@
   "description": "Azure Functions TypeScript E2E sample for Aspire",
   "main": "dist/src/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "watch": "tsc -w",
     "prestart": "npm run build",
-    "start": "func start"
+    "start": "node init && func start"
   },
   "dependencies": {
     "@azure/functions": "^4.7.0"

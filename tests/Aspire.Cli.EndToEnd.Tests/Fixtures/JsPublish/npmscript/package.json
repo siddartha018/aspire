@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
-    "build": "echo 'build complete'",
-    "start": "node server.js"
+    "dev": "node init && node server.js",
+    "build": "node init && echo 'build complete'",
+    "start": "node init && node server.js"
   },
   "dependencies": {
     "express": "^4.22.2"

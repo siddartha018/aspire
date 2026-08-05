@@ -6,6 +6,6 @@
   "type": "module",
   "main": "game.mjs",
   "scripts": {
-    "start": "node game.mjs"
+    "start": "node init && node game.mjs"
   }
 }

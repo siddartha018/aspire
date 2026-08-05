@@ -4,8 +4,8 @@
   "type": "module",
   "packageManager": "npm@10.0.0",
   "scripts": {
-    "build": "tsc --noEmit",
-    "dev": "tsc --noEmit --watch"
+    "build": "node init && tsc --noEmit",
+    "dev": "node init && tsc --noEmit --watch"
   },
   "dependencies": {
     "vscode-jsonrpc": "^8.2.0"
