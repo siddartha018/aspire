@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
-    "build": "echo 'no build needed'",
-    "start": "node server.js"
+    "dev": "node init && node server.js",
+    "build": "node init && echo 'no build needed'",
+    "start": "node init && node server.js"
   }
 }

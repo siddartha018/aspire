@@ -6,7 +6,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "aspire run"
+    "start": "node init && aspire run"
   },
   "dependencies": {
     "vscode-jsonrpc": "^8.2.0"
