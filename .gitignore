@@ -158,7 +158,6 @@ tests/PolyglotAppHosts/**/Java/**/*.class
 .idea/
 
 # vscode python env files
-.env
 
 # Storage emulator storage files
 **/.azurite/*
@@ -228,3 +227,4 @@ local.settings.json
 diagnostics.log
 .squad/
 tags
+config.bat

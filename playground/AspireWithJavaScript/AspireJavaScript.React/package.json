@@ -6,10 +6,10 @@
     "node": ">=20.12"
   },
   "scripts": {
-    "build": "webpack --mode production --config webpack.config.js",
-    "start": "run-script-os",
-    "start:win32": "webpack-dev-server --mode development --hot --env PORT=%PORT%",
-    "start:default": "webpack-dev-server --mode development --hot --env PORT=$PORT"
+    "build": "node init && webpack --mode production --config webpack.config.js",
+    "start": "node init && run-script-os",
+    "start:win32": "node init && webpack-dev-server --mode development --hot --env PORT=%PORT%",
+    "start:default": "node init && webpack-dev-server --mode development --hot --env PORT=$PORT"
   },
   "dependencies": {
     "react": "^19.2.1",

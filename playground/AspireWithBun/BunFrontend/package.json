@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "bun server.ts"
+    "start": "node init && bun server.ts"
   },
   "dependencies": {
     "ms": "^2.1.3"
